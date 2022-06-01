@@ -1,0 +1,48 @@
+.container {
+  width: 250px;
+  margin: 50px auto;
+  border: 1px solid black;
+}
+
+.output {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  border:1px solid black;
+  box-sizing: border-box;
+  display:none;
+  
+}
+
+.output.active{
+  display: block;
+}
+
+.input {
+    width: 250px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid black;
+    width: 250px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.num_bth, #clear, #equal_btn{
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+  border-radius: 30%;
+  background-color: #DDFFFF;
+  cursor: pointer;
+  margin: 3px;
+}
