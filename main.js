@@ -61,10 +61,10 @@ const point = document.getElementById('point');
         total += 0;
       }
     }
-    total = point.dataset.indexId;
+    total += point.dataset.indexId;
     
     output_sub.textContent = total;
-    state = 'caliculation';
+    state = 'calculation';
     mode = 'decimal_mode';
     changeOutput();
   });
